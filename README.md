@@ -22,7 +22,7 @@ pod 'CWCommonTools'
 
 ## Author
 
-余昌炜, mikasa_ycw@yeah.net
+ycw001, mikasa_ycw@yeah.net
 
 ## License
 

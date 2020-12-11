@@ -1,0 +1,22 @@
+{
+  "name": "CWCommonTools",
+  "version": "0.1.0",
+  "summary": "A short description of CWCommonTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/余昌炜/CWCommonTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "余昌炜": "mikasa_ycw@yeah.net"
+  },
+  "source": {
+    "git": "https://github.com/余昌炜/CWCommonTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CWCommonTools/Classes/**/*"
+}

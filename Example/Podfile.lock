@@ -1,0 +1,16 @@
+PODS:
+  - CWCommonTools (0.1.0)
+
+DEPENDENCIES:
+  - CWCommonTools (from `../`)
+
+EXTERNAL SOURCES:
+  CWCommonTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CWCommonTools: df1e63568956e220180a58c86581c7692dd70fcc
+
+PODFILE CHECKSUM: f2b98b1d9c9b7a28cc8fcfba4c12def72996fda8
+
+COCOAPODS: 1.10.0.beta.2
