@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'CWCommonTools/Classes/**/*.{h,m}'
+  s.source_files = 'CWCommonTools/Classes/**/*'
   
   s.requires_arc = true
   
@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
   }
   
   s.subspec 'Category' do |ss|
-      ss.source_files = 'KKPodTest/Classes/Category/*.{h,m}'
+      ss.source_files = 'CWCommonTools/Classes/Category/*'
   end
 
   s.public_header_files = 'Pod/Classes/**/*.h'
