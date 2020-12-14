@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'CWCommonTools_Example' do
   pod 'CWCommonTools', :path => '../'
+  pod 'SDWebImage'
 
   target 'CWCommonTools_Tests' do
     inherit! :search_paths

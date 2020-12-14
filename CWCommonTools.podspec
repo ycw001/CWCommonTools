@@ -39,10 +39,10 @@ TODO: Add long description of the pod here.
   }
   
   s.subspec 'Category' do |ss|
-      ss.source_files = 'CWCommonTools/Classes/Category/*'
+      ss.source_files = 'CWCommonTools/Classes/Category/*.{h,m}'
   end
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'MapKit', 'Foundation'
-  s.dependency 'SVProgressHUD'
+  s.dependency 'SDWebImage'
 end

@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "余昌炜";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4B9ZX27W5N;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -325,10 +328,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CWCommonTools_Example/Pods-CWCommonTools_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CWCommonTools/CWCommonTools.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CWCommonTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,6 +499,7 @@
 			baseConfigurationReference = 99C11AAD462435B54AE6561F /* Pods-CWCommonTools_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4B9ZX27W5N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CWCommonTools/CWCommonTools-Prefix.pch";
 				INFOPLIST_FILE = "CWCommonTools/CWCommonTools-Info.plist";
@@ -513,6 +519,7 @@
 			baseConfigurationReference = AE6E8A130B168409FA58BA4B /* Pods-CWCommonTools_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4B9ZX27W5N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CWCommonTools/CWCommonTools-Prefix.pch";
 				INFOPLIST_FILE = "CWCommonTools/CWCommonTools-Info.plist";

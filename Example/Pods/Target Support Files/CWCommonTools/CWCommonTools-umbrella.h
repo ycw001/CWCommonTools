@@ -10,6 +10,12 @@
 #endif
 #endif
 
+#import "UIColor+HexString.h"
+#import "UIImageView+Simple.h"
+#import "UIView+Simple.h"
+#import "UIColor+HexString.h"
+#import "UIImageView+Simple.h"
+#import "UIView+Simple.h"
 
 FOUNDATION_EXPORT double CWCommonToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char CWCommonToolsVersionString[];
