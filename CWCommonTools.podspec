@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CWCommonTools'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'CWCommonTools,便捷的UI开发和高频使用工具。一行代码生成控件，根据数据处理、文件管理、多媒体管理、权限管理、系统信息、Appstore操作、加密解密、快捷宏定义等几种不同的类型封装，Easy UI development and high frequency tools. A line of code to generate controls, according to data processing, file management, multimedia management, authority management, system information, Appstore operations, encryption and decryption, shortcut macro definition and several different types of encapsulation'
 
 # This description is used to generate tags and improve search results.
