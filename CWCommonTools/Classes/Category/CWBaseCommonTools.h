@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "CWCommonToolsConfig.h"
+#import "SimpleDef.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
