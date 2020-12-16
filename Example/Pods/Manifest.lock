@@ -1,0 +1,29 @@
+PODS:
+  - CWCommonTools (1.0.0):
+    - CWCommonTools/Category (= 1.0.0)
+    - SDWebImage
+  - CWCommonTools/Category (1.0.0):
+    - SDWebImage
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+
+DEPENDENCIES:
+  - CWCommonTools (from `../`)
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  CWCommonTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CWCommonTools: 2e950ebf8f6a45591b15eb2e0d4dd58237a0949d
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+
+PODFILE CHECKSUM: e34fcfb054337877d1484174cf5784104e848f83
+
+COCOAPODS: 1.10.0.beta.2
