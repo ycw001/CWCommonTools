@@ -29,6 +29,28 @@
 		06642A3B25876801005295B1 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642A3925876801005295B1 /* UIImage+GIF.h */; };
 		06642A3C25876801005295B1 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 06642A3A25876801005295B1 /* UIImage+GIF.m */; };
 		06642A43258768DE005295B1 /* SimpleDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642A42258768DE005295B1 /* SimpleDef.h */; };
+		06642A4F2588BAD3005295B1 /* CWCommonTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642A4E2588BAD3005295B1 /* CWCommonTools.h */; };
+		06642A702588BB25005295B1 /* CWBaseCommonTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642A6E2588BB25005295B1 /* CWBaseCommonTools.h */; };
+		06642A712588BB25005295B1 /* CWBaseCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 06642A6F2588BB25005295B1 /* CWBaseCommonTools.m */; };
+		06642A782588BBF4005295B1 /* CWCommonToolsConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642A772588BBF4005295B1 /* CWCommonToolsConfig.h */; };
+		06642A8C2588BF4B005295B1 /* CWCommonTools+AppStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642A8A2588BF4B005295B1 /* CWCommonTools+AppStore.h */; };
+		06642A8D2588BF4B005295B1 /* CWCommonTools+AppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 06642A8B2588BF4B005295B1 /* CWCommonTools+AppStore.m */; };
+		06642A952588C001005295B1 /* CWCommonTools+Date.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642A932588C001005295B1 /* CWCommonTools+Date.h */; };
+		06642A962588C001005295B1 /* CWCommonTools+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 06642A942588C001005295B1 /* CWCommonTools+Date.m */; };
+		06642A9E2588C0ED005295B1 /* CalenderConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642A9C2588C0ED005295B1 /* CalenderConverter.h */; };
+		06642A9F2588C0ED005295B1 /* CalenderConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06642A9D2588C0ED005295B1 /* CalenderConverter.m */; };
+		06642AA72588C1BB005295B1 /* CWCommonTools+Encrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642AA52588C1BB005295B1 /* CWCommonTools+Encrypt.h */; };
+		06642AA82588C1BB005295B1 /* CWCommonTools+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 06642AA62588C1BB005295B1 /* CWCommonTools+Encrypt.m */; };
+		06642AB02589B487005295B1 /* CWCommonTools+FileHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642AAE2589B487005295B1 /* CWCommonTools+FileHandle.h */; };
+		06642AB12589B487005295B1 /* CWCommonTools+FileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 06642AAF2589B487005295B1 /* CWCommonTools+FileHandle.m */; };
+		06642AB92589B616005295B1 /* CWCommonTools+Multimedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642AB72589B616005295B1 /* CWCommonTools+Multimedia.h */; };
+		06642ABA2589B616005295B1 /* CWCommonTools+Multimedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 06642AB82589B616005295B1 /* CWCommonTools+Multimedia.m */; };
+		06642AC22589B83F005295B1 /* CWCommonTools+Permission.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642AC02589B83F005295B1 /* CWCommonTools+Permission.h */; };
+		06642AC32589B83F005295B1 /* CWCommonTools+Permission.m in Sources */ = {isa = PBXBuildFile; fileRef = 06642AC12589B83F005295B1 /* CWCommonTools+Permission.m */; };
+		06642ACB2589B921005295B1 /* CWCommonTools+SystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642AC92589B921005295B1 /* CWCommonTools+SystemInfo.h */; };
+		06642ACC2589B921005295B1 /* CWCommonTools+SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 06642ACA2589B921005295B1 /* CWCommonTools+SystemInfo.m */; };
+		06642AD42589BCF6005295B1 /* CWCommonTools+UI.h in Headers */ = {isa = PBXBuildFile; fileRef = 06642AD22589BCF6005295B1 /* CWCommonTools+UI.h */; };
+		06642AD52589BCF6005295B1 /* CWCommonTools+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 06642AD32589BCF6005295B1 /* CWCommonTools+UI.m */; };
 		0B3205F9463ECEBDEDAF4093C1CBEC0D /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B626DAB1B7F30A6C1368362A2F045840 /* SDImageCache.m */; };
 		0D50A139F7C76C55180BBED1EFF1E2A4 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34E4FB33337E794C457F3F028131F4 /* UIView+WebCacheOperation.m */; };
 		0E633C11872A454E8449E8FBBA6C0478 /* SDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DC16F2106847EFB8129FBFFF4D82C066 /* SDImageLoader.m */; };
@@ -241,6 +263,28 @@
 		06642A3925876801005295B1 /* UIImage+GIF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
 		06642A3A25876801005295B1 /* UIImage+GIF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
 		06642A42258768DE005295B1 /* SimpleDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleDef.h; sourceTree = "<group>"; };
+		06642A4E2588BAD3005295B1 /* CWCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWCommonTools.h; sourceTree = "<group>"; };
+		06642A6E2588BB25005295B1 /* CWBaseCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWBaseCommonTools.h; sourceTree = "<group>"; };
+		06642A6F2588BB25005295B1 /* CWBaseCommonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWBaseCommonTools.m; sourceTree = "<group>"; };
+		06642A772588BBF4005295B1 /* CWCommonToolsConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWCommonToolsConfig.h; sourceTree = "<group>"; };
+		06642A8A2588BF4B005295B1 /* CWCommonTools+AppStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWCommonTools+AppStore.h"; sourceTree = "<group>"; };
+		06642A8B2588BF4B005295B1 /* CWCommonTools+AppStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CWCommonTools+AppStore.m"; sourceTree = "<group>"; };
+		06642A932588C001005295B1 /* CWCommonTools+Date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWCommonTools+Date.h"; sourceTree = "<group>"; };
+		06642A942588C001005295B1 /* CWCommonTools+Date.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CWCommonTools+Date.m"; sourceTree = "<group>"; };
+		06642A9C2588C0ED005295B1 /* CalenderConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalenderConverter.h; sourceTree = "<group>"; };
+		06642A9D2588C0ED005295B1 /* CalenderConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalenderConverter.m; sourceTree = "<group>"; };
+		06642AA52588C1BB005295B1 /* CWCommonTools+Encrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWCommonTools+Encrypt.h"; sourceTree = "<group>"; };
+		06642AA62588C1BB005295B1 /* CWCommonTools+Encrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CWCommonTools+Encrypt.m"; sourceTree = "<group>"; };
+		06642AAE2589B487005295B1 /* CWCommonTools+FileHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWCommonTools+FileHandle.h"; sourceTree = "<group>"; };
+		06642AAF2589B487005295B1 /* CWCommonTools+FileHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CWCommonTools+FileHandle.m"; sourceTree = "<group>"; };
+		06642AB72589B616005295B1 /* CWCommonTools+Multimedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWCommonTools+Multimedia.h"; sourceTree = "<group>"; };
+		06642AB82589B616005295B1 /* CWCommonTools+Multimedia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CWCommonTools+Multimedia.m"; sourceTree = "<group>"; };
+		06642AC02589B83F005295B1 /* CWCommonTools+Permission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWCommonTools+Permission.h"; sourceTree = "<group>"; };
+		06642AC12589B83F005295B1 /* CWCommonTools+Permission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CWCommonTools+Permission.m"; sourceTree = "<group>"; };
+		06642AC92589B921005295B1 /* CWCommonTools+SystemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWCommonTools+SystemInfo.h"; sourceTree = "<group>"; };
+		06642ACA2589B921005295B1 /* CWCommonTools+SystemInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CWCommonTools+SystemInfo.m"; sourceTree = "<group>"; };
+		06642AD22589BCF6005295B1 /* CWCommonTools+UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWCommonTools+UI.h"; sourceTree = "<group>"; };
+		06642AD32589BCF6005295B1 /* CWCommonTools+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CWCommonTools+UI.m"; sourceTree = "<group>"; };
 		0886802B38CA40A11C0188F1516C1CB0 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
 		08B447110A97C6747D3EE177D3248CEA /* SDWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-Info.plist"; sourceTree = "<group>"; };
 		0B1DCBA6E21C22CD459882D8162A3263 /* SDWebImageDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDefine.m; path = SDWebImage/Core/SDWebImageDefine.m; sourceTree = "<group>"; };
@@ -497,6 +541,28 @@
 				06642A312587637E005295B1 /* UIButton+Simple.m */,
 				06642A3925876801005295B1 /* UIImage+GIF.h */,
 				06642A3A25876801005295B1 /* UIImage+GIF.m */,
+				06642A4E2588BAD3005295B1 /* CWCommonTools.h */,
+				06642A772588BBF4005295B1 /* CWCommonToolsConfig.h */,
+				06642A6E2588BB25005295B1 /* CWBaseCommonTools.h */,
+				06642A6F2588BB25005295B1 /* CWBaseCommonTools.m */,
+				06642A8A2588BF4B005295B1 /* CWCommonTools+AppStore.h */,
+				06642A8B2588BF4B005295B1 /* CWCommonTools+AppStore.m */,
+				06642A932588C001005295B1 /* CWCommonTools+Date.h */,
+				06642A942588C001005295B1 /* CWCommonTools+Date.m */,
+				06642A9C2588C0ED005295B1 /* CalenderConverter.h */,
+				06642A9D2588C0ED005295B1 /* CalenderConverter.m */,
+				06642AA52588C1BB005295B1 /* CWCommonTools+Encrypt.h */,
+				06642AA62588C1BB005295B1 /* CWCommonTools+Encrypt.m */,
+				06642AAE2589B487005295B1 /* CWCommonTools+FileHandle.h */,
+				06642AAF2589B487005295B1 /* CWCommonTools+FileHandle.m */,
+				06642AB72589B616005295B1 /* CWCommonTools+Multimedia.h */,
+				06642AB82589B616005295B1 /* CWCommonTools+Multimedia.m */,
+				06642AC02589B83F005295B1 /* CWCommonTools+Permission.h */,
+				06642AC12589B83F005295B1 /* CWCommonTools+Permission.m */,
+				06642AC92589B921005295B1 /* CWCommonTools+SystemInfo.h */,
+				06642ACA2589B921005295B1 /* CWCommonTools+SystemInfo.m */,
+				06642AD22589BCF6005295B1 /* CWCommonTools+UI.h */,
+				06642AD32589BCF6005295B1 /* CWCommonTools+UI.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -911,14 +977,26 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06642A952588C001005295B1 /* CWCommonTools+Date.h in Headers */,
 				9E28150CDE40A8EB8066F727B1CA30E6 /* CWCommonTools-umbrella.h in Headers */,
+				06642ACB2589B921005295B1 /* CWCommonTools+SystemInfo.h in Headers */,
+				06642AB92589B616005295B1 /* CWCommonTools+Multimedia.h in Headers */,
+				06642AA72588C1BB005295B1 /* CWCommonTools+Encrypt.h in Headers */,
+				06642AD42589BCF6005295B1 /* CWCommonTools+UI.h in Headers */,
 				06642A1725875E6F005295B1 /* UIImageView+Simple.h in Headers */,
+				06642A4F2588BAD3005295B1 /* CWCommonTools.h in Headers */,
 				06642A43258768DE005295B1 /* SimpleDef.h in Headers */,
+				06642A782588BBF4005295B1 /* CWCommonToolsConfig.h in Headers */,
+				06642A702588BB25005295B1 /* CWBaseCommonTools.h in Headers */,
+				06642A9E2588C0ED005295B1 /* CalenderConverter.h in Headers */,
 				06642A0E25875E69005295B1 /* UIColor+HexString.h in Headers */,
 				06642A29258760ED005295B1 /* UILabel+Simple.h in Headers */,
+				06642AB02589B487005295B1 /* CWCommonTools+FileHandle.h in Headers */,
 				06642A3B25876801005295B1 /* UIImage+GIF.h in Headers */,
 				06642A322587637E005295B1 /* UIButton+Simple.h in Headers */,
 				06642A2025875E77005295B1 /* UIView+Simple.h in Headers */,
+				06642AC22589B83F005295B1 /* CWCommonTools+Permission.h in Headers */,
+				06642A8C2588BF4B005295B1 /* CWCommonTools+AppStore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1113,11 +1191,21 @@
 			files = (
 				06642A2125875E77005295B1 /* UIView+Simple.m in Sources */,
 				06642A332587637E005295B1 /* UIButton+Simple.m in Sources */,
+				06642AD52589BCF6005295B1 /* CWCommonTools+UI.m in Sources */,
+				06642AA82588C1BB005295B1 /* CWCommonTools+Encrypt.m in Sources */,
+				06642ABA2589B616005295B1 /* CWCommonTools+Multimedia.m in Sources */,
 				06642A0F25875E69005295B1 /* UIColor+HexString.m in Sources */,
+				06642ACC2589B921005295B1 /* CWCommonTools+SystemInfo.m in Sources */,
+				06642A8D2588BF4B005295B1 /* CWCommonTools+AppStore.m in Sources */,
+				06642AB12589B487005295B1 /* CWCommonTools+FileHandle.m in Sources */,
 				401D965831FF8BB36C4A6BD5DA07E8B8 /* CWCommonTools-dummy.m in Sources */,
+				06642AC32589B83F005295B1 /* CWCommonTools+Permission.m in Sources */,
 				06642A2A258760ED005295B1 /* UILabel+Simple.m in Sources */,
+				06642A962588C001005295B1 /* CWCommonTools+Date.m in Sources */,
+				06642A712588BB25005295B1 /* CWBaseCommonTools.m in Sources */,
 				06642A3C25876801005295B1 /* UIImage+GIF.m in Sources */,
 				06642A1825875E6F005295B1 /* UIImageView+Simple.m in Sources */,
+				06642A9F2588C0ED005295B1 /* CalenderConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
